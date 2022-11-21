@@ -1,8 +1,10 @@
+import Lista from "./Lista";
+
 
 function App() {
   return (
     <div>
-      ciao TURKISH ARUSPUCIUCI
+      <Lista />
     </div>
   );
 }
