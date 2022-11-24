@@ -1,6 +1,9 @@
-function Bottone{
+function Bottone(props){
+
+
+
     return(
-        <input type="button" value="bottone">NASCONDI IL GATTOO </input>
+        <button onClick={props.mostra}> NASCONDI IL GATTOOOO </button>
     )
 }
 
